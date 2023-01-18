@@ -99,10 +99,10 @@
 		ABBC8B4A29720BB300EAE439 /* SphereBoundingBox */ = {
 			isa = PBXGroup;
 			children = (
+				ABBC8B4B29720BB300EAE439 /* SphereBoundingBoxApp.swift */,
 				ABBC8B7929720C8A00EAE439 /* SphereParameters.swift */,
 				ABBC8B7B29720CD400EAE439 /* BoundingBoxParameters.swift */,
 				ABBC8B4D29720BB300EAE439 /* ContentView.swift */,
-				ABBC8B4B29720BB300EAE439 /* SphereBoundingBoxApp.swift */,
 				ABBC8B4F29720BB400EAE439 /* Assets.xcassets */,
 				ABBC8B5129720BB400EAE439 /* SphereBoundingBox.entitlements */,
 				ABBC8B5229720BB400EAE439 /* Preview Content */,

@@ -20,7 +20,7 @@ struct ContentView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
 
-                    Button(action: calculate) {
+                    Button(action: calculateVolumeandSurfaceAreaofSphere) {
                         Text("Calculate")
                     }
 
@@ -49,18 +49,29 @@ struct ContentView: View {
                     .padding()
                 }
             }
+            
+            func calculateVolumeandSurfaceAreaofSphere(){
+                var sphereParameters = SphereParameters()
+                sphereParameters.sphereRadius = sphereRadius
+                
+                sphereParameters.CalculateSphere()
 
-            func calculate() {
-                let Radius = Double(sphereRadius) ?? 0
-                let sphereV = (4/3) * Double.pi * pow(Radius, 3)
-                let sphereSA = 4 * Double.pi * pow(Radius, 2)
-                let boundingBoxV = 2 * pow(Radius, 3)
-                let boundingBoxSA = 12 * pow(Radius, 2)
+                sphereVolume = sphereParameters.sphereVolume
+                sphereSurfaceArea = sphereParameters.sphereSurfaceArea
+                
+                
 
-                sphereVolume = String(format: "%.2f", sphereV)
-                sphereSurfaceArea = String(format: "%.2f", sphereSA)
-                boundingBoxVolume = String(format: "%.2f", boundingBoxV)
-                boundingBoxSurfaceArea = String(format: "%.2f", boundingBoxSA)
+                var boundingBoxParameters = BoundingBoxParameters()
+                boundingBoxParameters.sphereRadius = sphereRadius
+                
+                boundingBoxParameters.CalculateBoundingBox()
+                boundingBoxVolume = boundingBoxParameters.boundingBoxVolume
+                boundingBoxSurfaceArea = boundingBoxParameters.boundingBoxSurfaceArea
+
+                
+
+
+
             }
         }
 
