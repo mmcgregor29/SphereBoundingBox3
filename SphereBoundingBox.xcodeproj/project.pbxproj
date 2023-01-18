@@ -14,6 +14,8 @@
 		ABBC8B5E29720BB400EAE439 /* SphereBoundingBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC8B5D29720BB400EAE439 /* SphereBoundingBoxTests.swift */; };
 		ABBC8B6829720BB400EAE439 /* SphereBoundingBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC8B6729720BB400EAE439 /* SphereBoundingBoxUITests.swift */; };
 		ABBC8B6A29720BB400EAE439 /* SphereBoundingBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC8B6929720BB400EAE439 /* SphereBoundingBoxUITestsLaunchTests.swift */; };
+		ABBC8B7A29720C8A00EAE439 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC8B7929720C8A00EAE439 /* SphereParameters.swift */; };
+		ABBC8B7C29720CD400EAE439 /* BoundingBoxParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC8B7B29720CD400EAE439 /* BoundingBoxParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		ABBC8B6329720BB400EAE439 /* SphereBoundingBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereBoundingBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBC8B6729720BB400EAE439 /* SphereBoundingBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereBoundingBoxUITests.swift; sourceTree = "<group>"; };
 		ABBC8B6929720BB400EAE439 /* SphereBoundingBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereBoundingBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABBC8B7929720C8A00EAE439 /* SphereParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereParameters.swift; sourceTree = "<group>"; };
+		ABBC8B7B29720CD400EAE439 /* BoundingBoxParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 		ABBC8B4A29720BB300EAE439 /* SphereBoundingBox */ = {
 			isa = PBXGroup;
 			children = (
-				ABBC8B4B29720BB300EAE439 /* SphereBoundingBoxApp.swift */,
+				ABBC8B7929720C8A00EAE439 /* SphereParameters.swift */,
+				ABBC8B7B29720CD400EAE439 /* BoundingBoxParameters.swift */,
 				ABBC8B4D29720BB300EAE439 /* ContentView.swift */,
+				ABBC8B4B29720BB300EAE439 /* SphereBoundingBoxApp.swift */,
 				ABBC8B4F29720BB400EAE439 /* Assets.xcassets */,
 				ABBC8B5129720BB400EAE439 /* SphereBoundingBox.entitlements */,
 				ABBC8B5229720BB400EAE439 /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBC8B4E29720BB300EAE439 /* ContentView.swift in Sources */,
+				ABBC8B7C29720CD400EAE439 /* BoundingBoxParameters.swift in Sources */,
 				ABBC8B4C29720BB300EAE439 /* SphereBoundingBoxApp.swift in Sources */,
+				ABBC8B7A29720C8A00EAE439 /* SphereParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
