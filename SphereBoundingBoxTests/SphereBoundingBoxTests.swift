@@ -23,7 +23,7 @@ final class SphereBoundingBox2Tests: XCTestCase {
 ///I followed along with your code for the circle test but no matter what I tried I could not get the SphereParemeters and BoundingBoxParameters to be in the scope so I couldn't quite get the testing part to work:(
         func testExample() throws {
 //
-//                let sphereParameters = SphereParameters()
+//                let sphereParameters = SphereParameters() 
 //
 //                sphereParameters.sphereRadius = "1.0"
 //                sphereParameters.CalculateSphere()
